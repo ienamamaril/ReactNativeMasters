@@ -9,11 +9,13 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 import Login from './app/modules/Login';
 import Home from './app/modules/Home';
+import Flatlist from './app/modules/Flatlist';
 
 const App = StackNavigator (
   {
     Login: { screen: Login, },
-    Home: { screen: Home }
+    Home: { screen: Home },
+    Flatlist: { screen: Flatlist },
   },
 );
 
