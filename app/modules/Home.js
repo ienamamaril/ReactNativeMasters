@@ -39,7 +39,7 @@ export default class Home extends React.Component {
                     <Button 
                         style = { styles.button }
                         onPress = {() => navigation.navigate('Flatlist')} 
-                        title = "LISTOPIA"
+                        title = "L I S T O P I A"
                         color = '#79BD42'/>
                 </View>
                 <View style = {{ flex: 1, alignItems: 'center', alignContent: 'flex-start', justifyContent: 'center'}}>
@@ -68,8 +68,7 @@ const styles = StyleSheet.create ({
         fontSize: 20,
     },
     button: {
-        color: 'white',
         fontWeight: 'bold',
-        fontSize: 10, 
+        fontSize: 10
     }
 });

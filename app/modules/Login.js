@@ -41,7 +41,7 @@ export default class Login extends React.Component {
                     
                     <TextInput
                         style = {{ backgroundColor: 'white', width: 150 }}
-                        placeholder = "Name"
+                        placeholder = " Name"
                         onChangeText = {( text ) => this.setState ({ text })}/>
 
                     <Button 
@@ -68,7 +68,6 @@ export default class Login extends React.Component {
         color: 'white'
     },
     button: {
-        color: 'white',
         fontWeight: 'bold',
         fontSize: 18
     }
