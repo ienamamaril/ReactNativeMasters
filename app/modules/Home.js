@@ -43,6 +43,13 @@ export default class Home extends React.Component {
                         color = '#79BD42'/>
                 </View>
                 <View style = {{ flex: 1, alignItems: 'center', alignContent: 'flex-start', justifyContent: 'center'}}>
+                    <Button
+                        style = { styles.button }
+                        onPress = {() => navigation.navigate('Camera')}
+                        title = "S M I L E"
+                        color = '#79BD42'/>
+                </View>
+                <View style = {{ flex: 1, alignItems: 'center', alignContent: 'flex-start', justifyContent: 'center'}}>
                     { this.state.status ? <Text style = { styles.footer }>{ params.message }</Text> : null }
                 </View>   
             </View>
