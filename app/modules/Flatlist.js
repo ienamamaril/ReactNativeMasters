@@ -5,7 +5,7 @@ import { Platform, AppRegistry, StyleSheet, View, Text, FlatList, TouchableOpaci
 export default class Flatlist extends React.Component {
 
     constructor ( props ) {
-        super( props );
+        super ( props );
         this.state = {
             isModalVisible: false,
             isLoading: true
@@ -61,7 +61,6 @@ export default class Flatlist extends React.Component {
     };
 
     render () {
-
         if (this.state.isLoading) {
             return (
                 <View style = {{ flex: 1, padding: 20}}>

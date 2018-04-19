@@ -11,13 +11,15 @@ import Login from './app/modules/Login';
 import Home from './app/modules/Home';
 import Flatlist from './app/modules/Flatlist';
 import Camera from './app/modules/Camera';
+import CapturePhoto from './app/modules/CapturePhoto';
 
 const App = StackNavigator (
   {
     Login: { screen: Login, },
     Home: { screen: Home },
     Flatlist: { screen: Flatlist },
-    Camera: { screen: Camera }
+    Camera: { screen: Camera },
+    CapturePhoto: { screen: CapturePhoto }
   },
 );
 
