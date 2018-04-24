@@ -24,7 +24,7 @@ export default class Camera extends React.Component {
             console.log(e)
             //this.props.navigation.goBack(null);
         }
-      }
+     }
 
     render () {
         const { navigation } = this.props;
@@ -32,6 +32,7 @@ export default class Camera extends React.Component {
         return (
             <View style = {{ flex: 1, flexDirection: 'column', backgroundColor: 'black'}}>
                 <View style = { styles.body }>
+
                    <RNCamera
                        ref={ref => {
                            this.camera = ref;
@@ -50,6 +51,7 @@ export default class Camera extends React.Component {
                    >
                        <Text style={{ fontSize: 14 }}> SNAP </Text>
                    </TouchableOpacity>
+
                 </View>
             </View>
         )
